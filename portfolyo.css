@@ -1,0 +1,311 @@
+body{margin:0px;}
+
+.col-1, .col-12 {background-color: white; z-index: -1;
+    min-height: 2300px; width: 8.33%; float: left;}
+.col-2, .col-11 {background-color: #98DDCA; z-index: -1;
+    min-height: 2300px; width: 8.33%; float: left;}
+.col-3, .col-10 {background-color: #D5ECC2; z-index: -1;
+    min-height: 2300px; width: 8.33%; float: left;}
+.col-4, .col-9 {background-color: #FFD3B4; z-index: -1; 
+    min-height: 2300px; width: 8.33%; float: left;}
+.col-5, .col-8 {background-color: #FFAAA7; z-index: -1;
+    min-height: 2300px; width: 8.33%; float: left;}
+.col-6, .col-7 {background-color: #b1e4e6; z-index: -1;
+    min-height: 2300px; width: 8.33%; float: left;}
+
+.header{height: 35px; 
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+    float: right;
+    width: 100%; 
+    background-color: wheat; 
+    
+    position: absolute;
+    top:0px; left: auto; right: 0px; bottom: 0px;
+}
+#ara{font-weight: 100; z-index: 2;}
+.header input:active{background-color: aqua; z-index: 2;}
+
+.nav{position: absolute;
+    top:0px; left: auto; right: 0px; bottom: 0px;
+    width: 90%;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    background-color: 0rgb(165, 152, 152);
+    z-index: 2;
+}
+
+.menu { 
+    text-decoration: auto;
+    background: bisque;
+    font-family: cursive;
+    margin-right: 1.6%;
+    border-radius: 9px;
+    box-shadow: 5px 5px pink;
+    color: #010805;
+    float: left;
+    width: 150px;
+    height: 30px;
+    padding: inherit;
+    text-align: center;
+}
+.nav a:hover{background-color: aqua;}
+.nav #contacts{
+    text-decoration: auto;
+    
+    font-family: cursive;
+    margin-right: 10%;
+    margin-top: inherit;
+    font-size: x-large;
+    border-radius: 9px;
+    box-shadow: 5px 5px pink;
+    color: #010805;
+    float: right;
+    background: bisque;
+    overflow: hidden;
+    
+}
+.row{
+    z-index: 2;
+    overflow: left;
+    padding: 10px;
+    min-height: 500px;
+    width: 65%;
+    text-align: left;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    top: 90px;
+    bottom: 0px;
+    left: 50px;
+
+}
+.rowiki{
+    z-index: 2;
+    overflow: right;
+    padding: 10px;
+    min-height: 500px;
+    width: 20%;
+    text-align: left;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    top: 90px;
+    bottom: 0px;
+    right: 50px;
+
+}
+.rowiki a{text-decoration: underline; margin-top: 10px;}
+    
+
+.rowiki ul li{list-style-type: square;}
+
+.rowiki a:visited{
+    color: rgb(111, 0, 255);
+
+}
+
+.rowuc{
+    overflow: hidden;
+    position: absolute;
+    top:700px;
+    bottom: 0px;
+    right: 50px;
+    z-index: 2;
+    width: 92%;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.rowuc h1{
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 3px cadetblue;
+
+    
+    font-family: cursive;
+
+}
+
+.rowdort{
+    position: absolute;
+    top: 1050px;
+    bottom: 0px;
+    right: 50px;
+    z-index: 2;
+    width: 92%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+    
+}
+.rowdort h1{
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 3px cadetblue;
+    font-family: cursive;
+}
+.rowdort p{margin: 10px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;}
+
+.projeler{
+    overflow: hidden;
+    width: 92%;
+    background-color: white;
+    border: 2px solid;
+    position: absolute;
+    top: 1550px;
+    right: 50px;
+    bottom: 0px;
+    height: 300px;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+
+.projeler .projebir{
+    float: left;
+    text-align: center;
+    
+    height: 200px;
+    width: 20%;
+    margin: 2.4%;
+    margin-top: 0px;
+    z-index: 3;
+    
+    
+}
+.projeler .yazi{
+    
+    z-index: 4;
+    color: brown;
+    text-shadow:1px 3px cadetblue;
+    
+
+    
+    
+    
+    font-family: cursive;
+    display: inline;
+    text-align: center;
+    top:1px;
+    
+}
+.row img{
+    width: 150px;
+    
+    height: auto;
+    
+    margin:10px;
+    float: left;
+    border: 2px solid black;
+}
+
+.projeler h1{margin: 3px;}
+.alan {
+    text-align: center;
+    float: left;
+    width: 15%;
+    margin:2px 30px 2px 30px;
+    
+    height:65%;
+    border-radius: 5px;
+    
+}
+.resim img {
+    border-radius: 15px;
+    
+    width: 100px;
+    height: auto;
+}
+.alan .yazi p {font-size: x-small; font-family: cursive;}
+.alan a{color: grey; text-decoration: underline;}
+.projebir img{
+    width: 110%; 
+    height: auto; 
+    border:1px solid black; 
+    border-radius: 10px;
+    margin: 10% 5% 10% 0%;
+}
+.projebir img:hover{width: 117%; height: auto;}
+.projebir .yazi a:hover{font-size: xx-large;}
+
+.rowbes{
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    width: 92%;
+    height: 300px;
+    position: absolute;
+    top: 1910px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.rowbes{
+    background-image: url(aslan.jpg);
+    opacity: 35%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-position: center center center;
+    
+    background-size: 650px;
+}
+
+
+.form{
+    width: fit-content;
+    float: right;
+    margin: 0px 20px 0px 5px;
+    z-index:4;
+    text-align: right;
+    font-size: 31.3px;
+    font-family: cursive;
+    
+    background-color: white;
+    z-index: 5;
+    
+    
+}
+.form label{margin: 10px;}
+.form input{margin: 10px;}
+#gonder{
+    background-color: aqua;
+    color: #010805;
+    border: 2px 2px pink;
+    border-radius: 30px;
+    box-shadow: 2px 2px palevioletred;
+    margin-top: 0px;
+
+}
+.footer{
+    height: 50px;
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+    float: right;
+    width: 100%;
+    background-color:wheat;
+    position: absolute;
+    top: 2250px;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+}
+.footer img{
+    width: 30px;
+    height: auto;
+    
+    margin: 5px;
+}
